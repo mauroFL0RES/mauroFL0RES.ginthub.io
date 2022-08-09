@@ -1,0 +1,59 @@
+.todo{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo titulo titulo"
+    "izq dibujo dibujo der"
+    "izq dibujo dibujo der"
+    "izq tex1 tex2 der"
+    "pie pie pie pie";
+    height: 95vh;
+    grid-template-rows: 2fr 5fr 1fr 3fr;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+}
+
+.centro{
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: titulo;
+    text-align: center;
+
+
+}
+
+.izquierda{ 
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: izq;
+
+}
+
+.dibujo{
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: dibujo;
+    text-align: center;
+
+}
+
+.derecha{
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: der;
+    
+}
+
+.text1{
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: tex1;
+
+}
+
+.text2{
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: tex2;
+}
+
+.pie{
+    background-color: rgba(255, 235, 265, 0.8);
+    grid-area: pie;
+}
+ 
